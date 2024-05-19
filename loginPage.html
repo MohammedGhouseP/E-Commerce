@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="input-cont">
+      <input type="text" id="username" placeholder="enter your name" />
+      <input type="text" id="password" placeholder="enter your password" />
+    </div>
+    <div id="container"></div>
+  </body>
+  <script>
+    let container = document.querySelector("#container");
+    let username = document.querySelector("#username").value;
+    let password = document.querySelector("#password").value;
+    let loginBtn = document.createElement("button");
+    loginBtn.innerHTML = "LogIn";
+
+    let obj ={ // creating object to push the data into json
+        name : username,
+        password:password
+    }
+
+    loginBtn.addEventListener('click',()=>{
+        const json = async=>{
+            let res = fetch(' http://localhost:3000/users',{
+                method:"POST",
+                headers:{
+                    "content-type":"application/json"
+                },
+                body:JSON.stringify(obj)
+            })
+        }
+    })
+    container.append(loginBtn);
+  </script>
+</html>
