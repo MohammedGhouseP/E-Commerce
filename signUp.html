@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="input-container">
+      <input type="text" id="name" placeholder="enter your name" />
+      <input type="text" id="username" placeholder="enter your Email" />
+      <input type="text" id="password" placeholder="enter your password" />
+      <button type="submit" id="signUpBtn" value="SignUp"></button>
+    </div>
+    <div id="container"></div>
+  </body>
+
+  <script>
+    let container = document.querySelector("#container");
+    let signUpBtn = document.querySelector("#signUpBtn");
+    signUpBtn.innerHTML = "signUp";
+
+    signUpBtn.addEventListener("click", async () => {
+      let name = document.querySelector("#name").value;
+      let email = document.querySelector("#username").value;
+      let password = document.querySelector("#password").value;
+      console.log(name, email, password);
+
+      // creating object to push the data into json
+      let obj = {
+        name,
+        email,
+        password,
+      };
+
+      try {
+        let res = await fetch("http://localhost:3000/users", {
+          method: "POST",
+          headers: {
+            "content-type": "application/json",
+          },
+          body: JSON.stringify(obj),
+        });
+        let data = await res.json();
+        // Handle the data from the response
+        // console.log("Response Data:", data);
+      } catch (error) {
+        console.log(error);
+      }
+      window.location.href = "loginPage.html";
+    });
+    container.append(signUpBtn);
+  </script>
+</html>

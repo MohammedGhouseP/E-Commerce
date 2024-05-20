@@ -6,35 +6,48 @@
     <title>Document</title>
   </head>
   <body>
-    <div id="input-cont">
-      <input type="text" id="username" placeholder="enter your name" />
+    <div id="input-container">
+      <input type="text" id="username" placeholder="enter your Email" />
       <input type="text" id="password" placeholder="enter your password" />
     </div>
     <div id="container"></div>
   </body>
+
   <script>
     let container = document.querySelector("#container");
-    let username = document.querySelector("#username").value;
-    let password = document.querySelector("#password").value;
+
     let loginBtn = document.createElement("button");
     loginBtn.innerHTML = "LogIn";
+    loginBtn.addEventListener("click", async () => {
+      let loginEmail = document.querySelector("#username").value;
+      let loginPassword = document.querySelector("#password").value;
 
-    let obj ={ // creating object to push the data into json
-        name : username,
-        password:password
-    }
+      // creating object to push the data into json
+      let obj = {
+        loginEmail,
+        loginPassword
+      };
 
-    loginBtn.addEventListener('click',()=>{
-        const json = async=>{
-            let res = fetch(' http://localhost:3000/users',{
-                method:"POST",
-                headers:{
-                    "content-type":"application/json"
-                },
-                body:JSON.stringify(obj)
-            })
-        }
-    })
+      try {
+        let res = await fetch(" http://localhost:3000/users")     
+        let data = await res.json();
+        // Handle the data from the response
+        // data.forEach(ele => {
+        //   if(el.email == loginEmail){
+        //     if(el.password==loginPassword){
+        //       // prompt(`welcome ${name}`);
+  
+        //     }
+        //   }
+        // });
+        console.log("Response Data:", data);
+      } catch (error) {
+        console.log(error);
+      }
+      alert(`Welcome ${loginEmail}`)
+            window.location.href = "products.html"
+      
+    });
     container.append(loginBtn);
   </script>
 </html>
