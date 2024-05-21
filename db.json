@@ -56,9 +56,57 @@
     },
     {
       "name": "kj",
-      "email": "lkj",
+      "email": "kn",
       "password": "kn",
       "id": 10
+    },
+    {
+      "name": "ghouse",
+      "email": "ghouse@gmail.com",
+      "password": "123",
+      "id": 11
+    },
+    {
+      "name": "basha",
+      "email": "basha@gmail.com",
+      "password": "123",
+      "id": 12
+    },
+    {
+      "name": "as",
+      "email": "as",
+      "password": "as",
+      "id": 13
+    },
+    {
+      "name": "o",
+      "email": "o",
+      "password": "o",
+      "id": 14
+    },
+    {
+      "name": "lp",
+      "email": "lp",
+      "password": "lp",
+      "id": 15
+    },
+    {
+      "name": "p",
+      "email": "p",
+      "password": "p",
+      "id": 16
+    },
+    {
+      "name": "w",
+      "email": "w",
+      "password": "w",
+      "id": 17
+    },
+    {
+      "name": "shastry",
+      "email": "shastry@gmail.com",
+      "password": "123",
+      "id": 18
     }
   ],
   "products": [
@@ -129,6 +177,326 @@
         "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyiYVs3xse5zH7hhmnIDtU6ZchYBpCOuid00Gev16kbQ&s",
         "price": 23000,
         "ratings": 3.8
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 1,
+        "title": "SmartPhone",
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBkz2kjdQjM6DX7mLSYMtBrQMF_wRCFb-3cxwI5rPg1A&s",
+        "price": 15000,
+        "ratings": 5
+      },
+      {
+        "id": 1,
+        "title": "SmartPhone",
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBkz2kjdQjM6DX7mLSYMtBrQMF_wRCFb-3cxwI5rPg1A&s",
+        "price": 15000,
+        "ratings": 5
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      }
+    ],
+    "k": [
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      }
+    ],
+    "as": [
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 1,
+        "title": "SmartPhone",
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBkz2kjdQjM6DX7mLSYMtBrQMF_wRCFb-3cxwI5rPg1A&s",
+        "price": 15000,
+        "ratings": 5
+      },
+      {
+        "id": 1,
+        "title": "SmartPhone",
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBkz2kjdQjM6DX7mLSYMtBrQMF_wRCFb-3cxwI5rPg1A&s",
+        "price": 15000,
+        "ratings": 5
+      },
+      {
+        "id": 3,
+        "title": "Laptop",
+        "src": "https://images-cdn.ubuy.co.in/633b75b241637808af7d4688-asus-laptop-l510-ultra-thin-laptop.jpg",
+        "price": 35000,
+        "ratings": 4.5
+      },
+      {
+        "id": 3,
+        "title": "Laptop",
+        "src": "https://images-cdn.ubuy.co.in/633b75b241637808af7d4688-asus-laptop-l510-ultra-thin-laptop.jpg",
+        "price": 35000,
+        "ratings": 4.5
+      },
+      {
+        "id": 3,
+        "title": "Laptop",
+        "src": "https://images-cdn.ubuy.co.in/633b75b241637808af7d4688-asus-laptop-l510-ultra-thin-laptop.jpg",
+        "price": 35000,
+        "ratings": 4.5
+      }
+    ],
+    "lp": [
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 1,
+        "title": "SmartPhone",
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBkz2kjdQjM6DX7mLSYMtBrQMF_wRCFb-3cxwI5rPg1A&s",
+        "price": 15000,
+        "ratings": 5
+      },
+      {
+        "id": 1,
+        "title": "SmartPhone",
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBkz2kjdQjM6DX7mLSYMtBrQMF_wRCFb-3cxwI5rPg1A&s",
+        "price": 15000,
+        "ratings": 5
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      }
+    ],
+    "p": [
+      {
+        "id": 2,
+        "title": "TV",
+        "src": "https://5.imimg.com/data5/SELLER/Default/2023/4/299765792/GM/GW/BT/6158633/50-inch-smart-android-led-tv-500x500.jpg",
+        "price": 25000,
+        "ratings": 4
+      },
+      {
+        "id": 2,
+        "title": "TV",
+        "src": "https://5.imimg.com/data5/SELLER/Default/2023/4/299765792/GM/GW/BT/6158633/50-inch-smart-android-led-tv-500x500.jpg",
+        "price": 25000,
+        "ratings": 4
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 1,
+        "title": "SmartPhone",
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBkz2kjdQjM6DX7mLSYMtBrQMF_wRCFb-3cxwI5rPg1A&s",
+        "price": 15000,
+        "ratings": 5
+      },
+      {
+        "id": 3,
+        "title": "Laptop",
+        "src": "https://images-cdn.ubuy.co.in/633b75b241637808af7d4688-asus-laptop-l510-ultra-thin-laptop.jpg",
+        "price": 35000,
+        "ratings": 4.5
+      },
+      {
+        "id": 5,
+        "title": "Microwave oven",
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyiYVs3xse5zH7hhmnIDtU6ZchYBpCOuid00Gev16kbQ&s",
+        "price": 23000,
+        "ratings": 3.8
+      }
+    ],
+    "w": [
+      {
+        "id": 5,
+        "title": "Microwave oven",
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyiYVs3xse5zH7hhmnIDtU6ZchYBpCOuid00Gev16kbQ&s",
+        "price": 23000,
+        "ratings": 3.8
+      },
+      {
+        "id": 5,
+        "title": "Microwave oven",
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyiYVs3xse5zH7hhmnIDtU6ZchYBpCOuid00Gev16kbQ&s",
+        "price": 23000,
+        "ratings": 3.8
+      }
+    ],
+    "shastry": [
+      {
+        "id": 5,
+        "title": "Microwave oven",
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyiYVs3xse5zH7hhmnIDtU6ZchYBpCOuid00Gev16kbQ&s",
+        "price": 23000,
+        "ratings": 3.8
+      },
+      {
+        "id": 5,
+        "title": "Microwave oven",
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyiYVs3xse5zH7hhmnIDtU6ZchYBpCOuid00Gev16kbQ&s",
+        "price": 23000,
+        "ratings": 3.8
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
+      },
+      {
+        "id": 4,
+        "title": "Washing Machine",
+        "src": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-1200-auto?v=638320917724870000",
+        "price": 20000,
+        "ratings": 3.2
       }
     ]
   }

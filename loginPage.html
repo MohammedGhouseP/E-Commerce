@@ -3,21 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+  
+      #container {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+      }
+  
+      #input-container {
+        margin-bottom: 20px;
+      }
+  
+      input[type="text"],
+      input[type="password"] {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+  
+      button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        margin-top: 15px;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+  
+      button:hover {
+        background-color: #0056b3;
+      }
+  
+      button:focus {
+        outline: none;
+      }
+  
+      #register-btn {
+        background-color: #28a745;
+      }
+  
+      #register-btn:hover {
+        background-color: #218838;
+      }
+  
+      #register-btn:focus {
+        outline: none;
+      }
+    </style>
   </head>
   <body>
-    <div id="input-container">
-      <input type="text" id="username" placeholder="enter your Email" />
-      <input type="text" id="password" placeholder="enter your password" />
+    <div id="container">
+      <div id="input-container">
+        <input type="text" id="username" placeholder="enter your Email" />
+        <input type="text" id="password" placeholder="enter your password" />
+        <button id="Lbtn">Log In</button>
+      </div>
+      <div id="container"></div>
+      <button onclick="register()">Want to register</button>
     </div>
-    <div id="container"></div>
   </body>
 
   <script>
     let container = document.querySelector("#container");
+    let loginBtn = document.getElementById("Lbtn");
 
-    let loginBtn = document.createElement("button");
-    loginBtn.innerHTML = "LogIn";
+    //event for login button
     loginBtn.addEventListener("click", async () => {
       let loginEmail = document.querySelector("#username").value;
       let loginPassword = document.querySelector("#password").value;
@@ -25,29 +91,38 @@
       // creating object to push the data into json
       let obj = {
         loginEmail,
-        loginPassword
+        loginPassword,
       };
 
+      let flag  = false;
+
       try {
-        let res = await fetch(" http://localhost:3000/users")     
+        let res = await fetch(" http://localhost:3000/users");
         let data = await res.json();
         // Handle the data from the response
-        // data.forEach(ele => {
-        //   if(el.email == loginEmail){
-        //     if(el.password==loginPassword){
-        //       // prompt(`welcome ${name}`);
-  
-        //     }
-        //   }
-        // });
-        console.log("Response Data:", data);
+        data.forEach((el) => {
+          if (el.email == loginEmail) {
+            if (el.password == loginPassword) {
+              flag = true
+              alert("Succesfully logged In");
+              window.location.href = "products.html";
+              localStorage.setItem("loginUser",JSON.stringify(el))
+            } else {
+              alert("Wrong password");
+            }
+          }
+        });
+        if(flag == false){
+          alert("User not found")
+        }
+        
       } catch (error) {
         console.log(error);
       }
-      alert(`Welcome ${loginEmail}`)
-            window.location.href = "products.html"
-      
     });
+    function register(){
+      window.location.href = "signUp.html"
+    }
     container.append(loginBtn);
   </script>
 </html>
